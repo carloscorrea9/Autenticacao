@@ -1,3 +1,74 @@
 body {
-  Background: blue;
+  margin: 0px; /* remove margens padrão do navegador */
+}
+
+a {
+  text-decoration: none; /* remove o sublinhado dos links */
+}
+
+header div.topo-1 {
+  background-color: #215a6d; /* cor de fundo azul claro */
+  color: white; /* cor do texto branca */
+  display: flex; /* usa flexbox para layout */
+  justify-content: space-between; /* espaça os itens igualmente */
+  align-items: center; /* alinha os itens verticalmente ao centro */
+  padding: 0 10px 0 10px; /* espaçamento interno */
+  font-size: 13px; /* tamanho da fonte */
+}
+
+header div.topo-1 a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+header div.topo-1 p.nome-loja {
+  font-size: 20px; /* tamanho da fonte do nome da loja */
+  font-weight: bold; /* negrito para o nome da loja */
+  margin: 0; /* remove margens padrão */
+}
+
+.topo-1 a:hover {
+  text-decoration: underline;
+}
+
+#menu-topo a:hover {
+  text-decoration: underline;
+}
+
+#menu-categorias a:hover {
+  text-decoration: color(#dfece6);
+}
+
+div#menu-topo {
+  background-color: #3ca2a2; /* cor de fundo cinza claro */
+  padding: 10px; /* espaçamento interno */
+  display: flex; /* usa flexbox para layout */
+  justify-content: space-between; /* espaça os itens igualmente */
+  align-items: center; /* alinha os itens verticalmente ao centro */
+  color: white;
+}
+#menu-topo a {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div#menu-categorias {
+  background-color: #215a6d; /* cor de fundo cinza claro */
+  padding: 10px; /* espaçamento interno */
+  display: flex; /* usa flexbox para layout */
+  flex-wrap: wrap; /* permite que os itens se movam para a próxima linha se necessário */
+}
+
+img {
+  width: 15px; /* largura da imagem */
+  height: 15px; /* altura da imagem */
+  margin-right: 3px; /* espaçamento à direita da imagem */
+  justify-content: center; /* centraliza a imagem */
+  align-items: center; /* centraliza a imagem */
 }
